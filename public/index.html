@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>File Meta Data Microservice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <style>
+        .upload {
+            margin: 54px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h1 class="text-center">File Meta Data Microservice</h1>
+
+                <div class="row upload">
+                    <div class="col-md-6">
+
+                        <form enctype="multipart/form-data" action="/" method="POST">
+                            <label class="btn btn-default btn-file">
+                                <input class="btn btn-lg btn-secondary" type="file" name="upload" />
+                                                            <input class="btn btn-primary btn-lg" type="submit">
+
+                            </label>
+                        </form>
+                    </div>
+                </div>
+                <p>Upload a file to receive a json object with that file's size in bytes.</p>
+                <pre>
+                    <samp>
+{
+    originalName: "Cool-Guitar.jpeg",
+    size: 506629
+}
+                    </samp>
+                </pre>
+                <blockquote class="blockquote">
+                    <p>Read more about this project here. <a href="https://www.freecodecamp.com/challenges/file-metadata-microservice"
+                            target="_new">https://www.freecodecamp.com/challenges/file-metadata-microservice</a></p>
+                    <p>
+                        Check out the code for this project here. <a href="https://github.com/mattstates/filemetadatamicroservice"
+                            target="_new">https://github.com/mattstates/filemetadatamicroservice</a></p>
+                </blockquote>
+            </div>
+            <div class="col-md-2"></div>
+
+        </div>
+
+        <div class="footer text-center"><a href="https://github.com/mattstates/">Matt States</a> &copy;2017</div>
+    </div>
+
+</body>
+
+</html>
