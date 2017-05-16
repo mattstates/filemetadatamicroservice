@@ -8,6 +8,6 @@ This app was built with
   - express.js
   - multer.js
 
-Check out the app here, [https://shorturl-fcc.herokuapp.com/](https://filemetadatamicroservice-fcc.herokuapp.com/)
+Check out the app here, [https://filemetadatamicroservice-fcc.herokuapp.com/](https://filemetadatamicroservice-fcc.herokuapp.com/)
 
 Learn more at [freecodecamp](https://www.freecodecamp.com/challenges/file-metadata-microservice).
